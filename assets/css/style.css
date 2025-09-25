@@ -2040,7 +2040,7 @@ hr {
 }
 
 .preloader {
-    background-color: #f7f7f7;
+    background-color: #ffffff;
     width: 100%;
     height: 100%;
     position: fixed;
@@ -2060,7 +2060,7 @@ hr {
     height: 300px;
     position: relative;
     border-style: solid;
-    border-width: 1px;
+    border-width: 8px;
     border-top-color: #ff0000 ;
     border-bottom-color: transparent;
     border-left-color: transparent;
@@ -2736,8 +2736,13 @@ hr {
 }
 
 .logo a img {
-    max-width: 120px
+    max-width: 60px
 }
+
+.footer-logo a img {
+    max-width: 100px
+}
+
 .header-sticky.sticky-bar {
     background: #111111ce;
     padding: 0 35px
@@ -2958,7 +2963,7 @@ hr {
         position: absolute;
         top: 15px;
         z-index: 2;
-        right: 13px
+        /* right: 13px */
     }
 }
 
@@ -2967,7 +2972,7 @@ hr {
         position: absolute;
         top: 15px;
         z-index: 2;
-        right: 13px
+        /* right: 13px */
     }
 }
 
@@ -4029,7 +4034,7 @@ hr {
 
 .footer-area .footer-pera p {
     color: #C2C5DB;
-    padding-right: 52px;
+    /* padding-right: 52px; */
     font-size: 16px;
     margin-bottom: 50px;
     line-height: 1.8
@@ -4048,7 +4053,7 @@ hr {
 .footer-area .footer-tittle h4 {
     color: #fff;
     font-size: 17px;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     font-weight: 500;
     font-family: "Poppins", sans-serif
 }

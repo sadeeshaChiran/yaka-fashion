@@ -3841,7 +3841,7 @@ hr {
 
 .footer-area .footer-pera p {
     color: #868c98;
-    padding-right: 52px;
+    /* padding-right: 52px; */
     font-size: 16px;
     margin-bottom: 50px;
     line-height: 1.8
