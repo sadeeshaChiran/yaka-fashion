@@ -625,6 +625,23 @@ hr {
     color: #888
 }
 
+#whatsapp {
+    background: #1eff00;
+    border-color: red;
+    height: 50px;
+    width: 50px;
+    right: 31px;
+    bottom: 100px;
+    position: fixed;
+    color: #0ba933;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 48px;
+    border: 2px solid;
+    box-shadow: 0 0 10px 3px rgba(60, 255, 1, 0.627)
+}
+
 #scrollUp,
 #back-top {
     background: #000000;

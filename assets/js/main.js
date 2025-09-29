@@ -15,10 +15,14 @@
       var scroll = $(window).scrollTop();
       if (scroll < 400) {
         $(".header-sticky").removeClass("sticky-bar");
+        $('#whatsapp').fadeOut(100);
         $('#back-top').fadeOut(500);
+
       } else {
         $(".header-sticky").addClass("sticky-bar");
+        $('#whatsapp').fadeIn(500);
         $('#back-top').fadeIn(500);
+
       }
     });
 
